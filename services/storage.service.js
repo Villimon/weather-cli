@@ -5,6 +5,12 @@ import { promises } from 'fs'
 const filePath = join(homedir(), 'weather-data.json')
 
 
+export const TOKEN_DICT = {
+    token: 'token',
+    city: 'city'
+}
+
+
 export const saveKeyValue = async (key, value) => {
     let data = {}
 
