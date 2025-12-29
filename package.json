@@ -21,6 +21,8 @@
     "url": ""
   },
   "dependencies": {
-    "axios": "^1.13.2"
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "dedent": "^1.7.1"
   }
 }
